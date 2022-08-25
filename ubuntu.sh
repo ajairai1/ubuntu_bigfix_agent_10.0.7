@@ -6,7 +6,7 @@ mkdir BESClient
 cd BESClient
 wget https://github.com/ajairai1/ubuntu_bigfix_agent_10.0.7/blob/main/BESAgent-10.0.7.52-ubuntu10.amd64.deb?raw=true
 wget https://raw.githubusercontent.com/ajairai1/ubuntu_bigfix_agent_10.0.7/main/actionsite.afxm
-  dpkg -i BESAgent-10.0.7.52-ubuntu10.amd64.deb
+dpkg -i /etc/opt/BESClient/BESAgent-10.0.7.52-ubuntu10.amd64.deb\?raw\=true
 /etc/init.d/besclient start
 
 echo "Enable systcl parameters to disable it."
